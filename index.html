@@ -4,12 +4,14 @@
         <title>"Minha Página"</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/main.js"></script>
     </head>
 
     <body>
 
         <head>
-            <p>Este é o cabeçalho.</p>
+            <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()">Este é o cabeçalho.</p>
+            <button type="button" onclick="clique()">Clique Aqui!</button>
         </head>
 
         <h1>"Início do Body"</h1>
